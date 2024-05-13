@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "story book",
+        "title": " lorem,ipson dolor",
+        "price": 0,
+        "category": "sport",
+        "image": "https://img.freepik.com/free-photo/international-day-education-with-books_23-2150931146.jpg?t=st=1715582033~exp=1715585633~hmac=2ca0f179871d7494a58e34caac396220da9b84de21fec195f00372e324e0918b&w=360"
+    },
+    {
+        "id": 2,
+        "name": "story book",
+        "title": " lorem,ipson dolor",
+        "price": 0,
+        "category": "ENTERTAINMENT",
+        "image": "https://img.freepik.com/free-photo/international-day-education-with-books_23-2150931146.jpg?t=st=1715582033~exp=1715585633~hmac=2ca0f179871d7494a58e34caac396220da9b84de21fec195f00372e324e0918b&w=360"
+    },
+    {
+        "id": 3,
+        "name": "story book",
+        "title": " lorem,ipson dolor",
+        "price": 0,
+        "category": "Music",
+        "image": "https://img.freepik.com/free-photo/international-day-education-with-books_23-2150931146.jpg?t=st=1715582033~exp=1715585633~hmac=2ca0f179871d7494a58e34caac396220da9b84de21fec195f00372e324e0918b&w=360"
+    },
+    {
+        "id": 5,
+        "name": "story book",
+        "title": " lorem,ipson dolor",
+        "price": 0,
+        "category": "food",
+        "image": "https://img.freepik.com/free-photo/international-day-education-with-books_23-2150931146.jpg?t=st=1715582033~exp=1715585633~hmac=2ca0f179871d7494a58e34caac396220da9b84de21fec195f00372e324e0918b&w=360"
+    },
+    {
+        "id": 6,
+        "name": "story book",
+        "title": " lorem,ipson dolor",
+        "price": 0,
+        "category": "books ",
+        "image": "https://img.freepik.com/free-photo/international-day-education-with-books_23-2150931146.jpg?t=st=1715582033~exp=1715585633~hmac=2ca0f179871d7494a58e34caac396220da9b84de21fec195f00372e324e0918b&w=360"
+    },
+    {
+        "id": 8,
+        "name": "story book",
+        "title": " lorem,ipson dolor",
+        "price": 0,
+        "category": "free",
+        "image": "https://img.freepik.com/free-photo/international-day-education-with-books_23-2150931146.jpg?t=st=1715582033~exp=1715585633~hmac=2ca0f179871d7494a58e34caac396220da9b84de21fec195f00372e324e0918b&w=360"
+    }
+]
