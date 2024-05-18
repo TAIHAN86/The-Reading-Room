@@ -1,23 +1,15 @@
-import React from 'react'
-import Navbar from './components/Navbar'
-import Banner from './components/banner'
-import Footer from './components/Footer'
-import Freebook from './components/Freebook'
-import Cards from '../src/components/Cards'
-
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Home from '../src/Home/Home';
+import Courses from '../src/Courses/Courses';
 
 function App() {
   return (
-  <>
-  <Navbar/> 
-  <Banner/>
-  <Cards/>
-  <Freebook/>
-  <Footer/> 
-  
-  
-  </>
-  )
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/Courses" element={<Courses />} />
+    </Routes>
+  );
 }
 
-export default App
+export default App;
