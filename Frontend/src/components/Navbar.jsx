@@ -1,8 +1,20 @@
 import React, { useEffect } from "react";
-import { useState } from "react"; 
-
+import { useState } from "react";
 
 function Navbar() {
+  
+  const element = document.documentElement;
+  useEffect(() => {
+    if (theme === "dark") {
+      element.classList.add("dark");
+      localStorage.setItem("theme", "dark");
+      document.body.classList.add("dark");
+    } else {
+      element.classList.remove("dark");
+      localStorage.setItem("theme", "light");
+      document.body.classList.remove("dark");
+    }
+  }, [theme]);
 
   const [sticky, setSticky] = useState(false);
   useEffect(() => {
@@ -18,14 +30,13 @@ function Navbar() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
- 
   const navItems = (
     <>
       <li>
         <a href="/">Home</a>
       </li>
       <li>
-        <a href="/Courses">Course</a>
+        <a href="/course">Course</a>
       </li>
       <li>
         <a>Contact</a>
@@ -42,7 +53,7 @@ function Navbar() {
           sticky
             ? "sticky-navbar shadow-md bg-base-200 dark:bg-slate-700 dark:text-white duration-300 transition-all ease-in-out"
             : ""
-        }`} 
+        }`}
       >
         <div className="navbar ">
           <div className="navbar-start">
@@ -130,15 +141,8 @@ function Navbar() {
               </svg>
             </label>
 
-            <div className="">
-                <a
-                  className="bg-black text-white px-3 py-2 rounded-md hover:bg-slate-800 duration-300 cursor-pointer"
-                  
-                >
-                  Login
-                </a>
-               
-              </div>
+            
+              
           </div>
         </div>
       </div>
