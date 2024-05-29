@@ -8,7 +8,7 @@ function App() {
     <div className='"dark:bg-slate-900 dark:text-white'>
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/Courses" element={<Courses />} />
+      <Route path="/Course" element={<Courses />} />
     </Routes>
     </div>
   );

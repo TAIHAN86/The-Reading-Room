@@ -2,7 +2,9 @@ import React, { useEffect } from "react";
 import { useState } from "react";
 
 function Navbar() {
-  
+  const [theme, setTheme] = useState(
+    localStorage.getItem("theme") ? localStorage.getItem("theme") : "light"
+  );
   const element = document.documentElement;
   useEffect(() => {
     if (theme === "dark") {
